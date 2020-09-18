@@ -1,0 +1,55 @@
+<div class="content" role="main">
+    <div class="card-container">
+    </div>
+    <mat-progress-bar *ngIf="!country" mode="indeterminate"></mat-progress-bar>
+    <mat-card>
+        <mat-card-header *ngIf="country">
+
+            <img mat-card-avatar width="40px" height="20px" [src]="country.flag" />
+
+            <mat-card-title>
+                <h1>
+                    <b>{{ this.country.name}}</b>
+                </h1>
+            </mat-card-title>
+            <mat-card-subtitle>Nome nativo: <b>{{ country.nativeName}}</b></mat-card-subtitle>
+        </mat-card-header>
+
+
+        <mat-grid-list cols="2" rowHeight="280px">
+            <mat-grid-tile>
+                <mat-list>
+                    <mat-list-item>
+                        <b>Nome nativo: </b> {{ country.nativeName}}
+                    </mat-list-item>
+                    <mat-list-item>
+                        <b>capital: </b> {{ country.capital}}
+                    </mat-list-item>
+                    <mat-list-item>
+                        <b>Regiao: </b> {{ country.region}}
+                    </mat-list-item>
+                    <mat-list-item>
+                        <b>sub-região: </b> {{ country.subregion}}
+                    </mat-list-item>
+                    <mat-list-item>
+                        <b>População: </b> {{ country.population}}
+                    </mat-list-item>
+                </mat-list>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-list>
+                    <mat-list-item> População: {{ country.population}}</mat-list-item>
+                    <mat-list-item> Lingua: {{ country.languages[0].name}}</mat-list-item>
+                    <mat-list-item> área: {{ country.area}}</mat-list-item>
+                    <mat-list-item> fuso horário: {{ country.timezones}}</mat-list-item>
+                    <mat-list-item> bandeira:
+                        <a mat-button [href]="country.flag" target="_blank" rel="noopener">
+                            ver</a>
+                    </mat-list-item>
+                </mat-list>
+            </mat-grid-tile>
+        </mat-grid-list>
+
+
+    </mat-card>
+</div>
