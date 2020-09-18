@@ -20,4 +20,4 @@ cada pais.
 Ao clicar no botao [ver] a tela dos detalhes do pais ja com a informacao populada
 e um botao para ver a bandeira do pais
 
-Densenvolvidor NELSON CHADALY
+Densenvolvidor <b>NELSON CHADALY</b>
