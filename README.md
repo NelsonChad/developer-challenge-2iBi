@@ -3,10 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
 O Presente projecto mostra o cumprimento do desafio para a vaga
-de densenvolvidor front-end da 2iBi o qual foi densenvolvido
+de densenvolvidor front-end da <b>2iBi</b> o qual foi densenvolvido
 sob a tecnologia Angular na sua versao: Angular: 10.1.1
-na qual console os dados de uma API disponibilizada no site: restcountries.eu
-Densenvolvido pelo candidato NELSON CHADALI
+na qual console os dados de uma API disponibilizada no site: <a href="https://restcountries.eu">restcountries.eu</a>
+Densenvolvido pelo candidato <b>NELSON CHADALY</b>
 
 Na toolbar superior do projecto temos um menu com dois butoes [HOME] e [Lista_de_Paises]
 
